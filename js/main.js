@@ -2,6 +2,14 @@ $(function () {
   $(".slider__inner").slick({
     arrows: false,
     dots: true,
+    responsive: [
+      {
+        breakpoint: 769,
+        settings: {
+          arrows: false,
+        },
+      },
+    ],
   });
   $(".menu__btn").on("click", function () {
     $(".menu__list").addClass("menu__list--active");
