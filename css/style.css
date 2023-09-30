@@ -270,7 +270,7 @@ a {
 }
 
 .surfer__text p {
-  margin: 30px;
+  margin-bottom: 30px;
 }
 .surfer__img {
   border-radius: 5px;
@@ -726,8 +726,6 @@ ul.packages__item {
   }
 
   .surfer__text p {
-    margin-bottom: 30px;
-    margin-right: 0;
     max-width: 100%;
     text-align: center;
   }
