@@ -940,7 +940,7 @@ ul.packages__item {
 }
 @media (max-width: 580px) {
   section {
-    padding: 60px 10px;
+    padding: 40px 10px;
   }
   .title {
     font-size: 32px;
